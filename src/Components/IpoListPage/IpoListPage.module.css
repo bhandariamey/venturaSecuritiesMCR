@@ -1,0 +1,35 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table th:first-child{
+    text-align: left;
+}
+
+.table th{
+    font-size: 20px;
+    color: gray;
+}
+
+.table th, .table td {
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: lightgray;
+}
+
+
+.minInvest{
+    margin-bottom: 0px;
+}
+
+.shares{
+    margin-top: 10px;
+    font-size: 17px;
+    color: gray;
+}

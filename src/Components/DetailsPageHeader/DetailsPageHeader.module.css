@@ -1,0 +1,104 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftHeader{
+    display: flex;
+    align-items: center;
+}
+
+.homeButton{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    position: relative;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.homeButton:hover{
+    cursor: pointer;
+}
+
+.homeButton img{
+   max-width: 30%;
+   max-height: 30%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.imageWrapper{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+}
+
+.imageWrapper img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.companyName{
+    margin-bottom: 0px;
+}
+
+.companyFullName{
+    margin-top: 0px;
+}
+
+
+
+.rightHeader{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.downloadIcon{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.downloadIcon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.applyNowButton{
+    height: 50px;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.applyNowButton:hover{
+    cursor: pointer;
+}
+
+.downloadIcon:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .homeButton{
+        display: none;
+    }
+
+    .rightHeader{
+        display: none;
+    }
+    
+  }
